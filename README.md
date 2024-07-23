@@ -1,12 +1,12 @@
 # deep-learning-challenge
 
 ## Overview of the Analysis
-The purpose of this analysis is to create an algorithm that assists a non-profit foundation in identifying the most suitable applicants for funding their venture projects. This algorithm will utilize machine learning and deep learning neural networks to predict the likelihood of an applicant’s success if funded. The model will be developed using metadata from over 34,000 organizations that have previously received funding from the foundation.
+The purpose of this analysis is to create an algorithm that assists a non-profit foundation in identifying the most suitable applicants for funding their venture projects. This algorithm will utilise machine learning and deep learning neural networks to predict the likelihood of an applicant’s success if funded. The model will be developed using metadata from over 34,000 organizations that have previously received funding from the foundation.
 
 ## Results
 
 ### Data Preprocessing
-The following is a snapshot of the original dataframe:
+The following is a snapshot of the original dataframe which highlights the different variables/features in the dataset:
 ![original dataframe](./Images/original%20dataset.png)
 
 **Model Target Variable:**
@@ -55,9 +55,9 @@ A target predictive accuracy higher than 75% was desirable but was not achieved.
 #### Steps Taken to Increase Model Performance
 - The column `SPECIAL_CONSIDERATIONS` was dropped from the training dataset as it is suspected of causing confusion in the model.
 - The cut-off values for `APPLICATION_TYPE` and `CLASSIFICATION` columns were decreased to 100 to include more categories of values for training.
-- A third hidden layer was added with neurons increased to 10, 20, 10 to each of the three hidden layers respectively.
+- A third hidden layer was added with neurons increased to 30, 20, 10 to each of the three hidden layers respectively.
 - Increased test size split to 0.25 from 0.20 for a more accurate estimate of the model’s performance on unseen data.
-- Batch size was reduced to 64 to improve generalization of the model.
+- Batch size was reduced to 64 to improve generalisation of the model.
 - Epochs were increased to 150 to give the model more opportunities to learn from the training data.
 
 The above steps were completed in a separate notebook file `AlphabetSoupCharity_Optimisation-1.ipynb`.
