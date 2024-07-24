@@ -83,12 +83,12 @@ The dataset was provided by edX Boot Camps LLC.
 deep-learning-challenge (Root Folder)
 └── Alphabet Soup/
     ├── AlphabetSoupCharity_NNM.ipynb-Jupyter notebook containing code for the initial model
-    ├── AlphabetSoupCharity_Optimisation-1.ipynb-Jupyter notebook containing code for the first optimized model
-    ├── AlphabetSoupCharity_Optimisation-2.ipynb-Jupyter notebook containing code for the second optimized model
+    ├── AlphabetSoupCharity_Optimisation-1.ipynb-Jupyter notebook containing code for the first optimised model
+    ├── AlphabetSoupCharity_Optimisation-2.ipynb-Jupyter notebook containing code for the second optimised model
     └── HDF5/
         ├── AlphabetSoupCharity.h5- HDF5 file for the initial model
-        ├── AlphabetSoupCharity_Optimisation1.h5- HDF5 file for the first optimized model
-        └── AlphabetSoupCharity_Optimisation2.h5- HDF5 file for the second optimized model
+        ├── AlphabetSoupCharity_Optimisation1.h5- HDF5 file for the first optimised model
+        └── AlphabetSoupCharity_Optimisation2.h5- HDF5 file for the second optimised model
 ├── Images/
     ├── initial model accuracy.png- Image for the initial model's accuracy
     ├── initial model layers and neurons.png- Image for the initial model's neurons and layers
@@ -97,8 +97,8 @@ deep-learning-challenge (Root Folder)
     ├── original dataset.png- Image for the original dataset
     └── removed columns.png- Image for the removed columns
 ├── Weights per 5 epochs nnm1/- Folder for weights per 5 epochs for the initial model
-├── Weights per 5 epochs nnm2/- Folder for weights per 5 epochs for the first optimized model
-└── Weights per 5 epochs nnm3/- Folder for weights per 5 epochs for the second optimized model
+├── Weights per 5 epochs nnm2/- Folder for weights per 5 epochs for the first optimised model
+└── Weights per 5 epochs nnm3/- Folder for weights per 5 epochs for the second optimised model
 
         
 ```
