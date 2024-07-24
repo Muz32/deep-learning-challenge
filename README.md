@@ -90,12 +90,12 @@ deep-learning-challenge (Root Folder)
         ├── AlphabetSoupCharity_Optimisation1.h5- HDF5 file for the first optimized model
         └── AlphabetSoupCharity_Optimisation2.h5- HDF5 file for the second optimized model
 ├── Images/
-    ├── initial%20model%20accuracy.png- Image for the initial model's accuracy
-    ├── initial%20model%20layers%20and%20neurons.png- Image for the initial model's neurons and layers
-    ├── optimised%20model%20accuracy.png- Image for the optimized model's accuracy
-    ├── optimised%20model%20layers%20and%20neurons.png- Image for the optimized model's neurons and layers
-    ├── original%20dataset.png- Image for the original dataset
-    └── removed%20columns.png- Image for the removed columns
+    ├── initial model accuracy.png- Image for the initial model's accuracy
+    ├── initial model layers and neurons.png- Image for the initial model's neurons and layers
+    ├── optimised model accuracy.png- Image for the optimized model's accuracy
+    ├── optimised model layers and neurons.png- Image for the optimized model's neurons and layers
+    ├── original dataset.png- Image for the original dataset
+    └── removed columns.png- Image for the removed columns
 ├── Weights per 5 epochs nnm1/- Folder for weights per 5 epochs for the initial model
 ├── Weights per 5 epochs nnm2/- Folder for weights per 5 epochs for the first optimized model
 └── Weights per 5 epochs nnm3/- Folder for weights per 5 epochs for the second optimized model
